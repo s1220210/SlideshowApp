@@ -87,7 +87,7 @@ import UIKit
             a = b % (slideTime * 10)
            // a = b.truncatingRemainder(dividingBy: slideTime)
          
-            //2sごとに画像をnext
+            // 2sごとに画像next
             if(timer_sec > 0 && a == 0) {
                 nextImage((Any).self)
             }
@@ -98,6 +98,10 @@ import UIKit
         override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             let viewController:ImageViewController = segue.destination as! ImageViewController
             viewController.image = image[count]
+            
+            if self.timer != nil {
+                showImage((Any).self)
+            }
         }
         
         @IBAction func unwind(_ segue: UIStoryboardSegue){ //遷移先から戻ってくるときのメソッド

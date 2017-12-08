@@ -18,11 +18,13 @@ class ImageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        imageView.image = image
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
+      /*  if ViewController.timer != nil {
         ViewController().showImage((Any).self)
+        }*/
+        imageView.image = image
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

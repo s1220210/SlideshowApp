@@ -25,7 +25,6 @@
                                 </accessibility>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="0.20000000000000001" height="0.20000000000000001"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="RGw-pz-cmU"/>
                                     <constraint firstAttribute="height" constant="250" id="Xha-5S-chv"/>
                                 </constraints>
                                 <state key="normal" image="IMG_0107.jpg"/>
@@ -104,10 +103,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Yx0-tg-vpK" firstAttribute="trailing" secondItem="bfq-dL-2cQ" secondAttribute="trailing" id="1LX-n8-z3K"/>
+                            <constraint firstItem="IXF-An-Wqj" firstAttribute="top" secondItem="Yx0-tg-vpK" secondAttribute="bottom" constant="20" id="Avj-MC-qpn"/>
                             <constraint firstItem="Yx0-tg-vpK" firstAttribute="centerX" secondItem="Ao0-Am-lPo" secondAttribute="centerX" id="O8j-HB-VAS"/>
                             <constraint firstItem="Yx0-tg-vpK" firstAttribute="leading" secondItem="bfq-dL-2cQ" secondAttribute="leading" id="SsG-7t-4gf"/>
                             <constraint firstItem="Yx0-tg-vpK" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Ao0-Am-lPo" secondAttribute="top" constant="20" id="UQQ-rN-6Qe"/>
-                            <constraint firstItem="IXF-An-Wqj" firstAttribute="top" secondItem="Yx0-tg-vpK" secondAttribute="bottom" constant="40" id="XoM-9t-aaD"/>
                             <constraint firstItem="bfq-dL-2cQ" firstAttribute="bottom" secondItem="IXF-An-Wqj" secondAttribute="bottom" constant="20" id="fwz-JX-iEg"/>
                             <constraint firstItem="IXF-An-Wqj" firstAttribute="centerX" secondItem="Ao0-Am-lPo" secondAttribute="centerX" id="i4n-Fo-sQc"/>
                         </constraints>
