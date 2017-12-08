@@ -13,19 +13,16 @@ import UIKit
 class ImageViewController: UIViewController {
     
     var image:UIImage?
-    // UIImageView 初期化
-    //let imageView = UIImageView(image:inu01)
     
     @IBOutlet weak var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //print(count)
         imageView.image = image
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
-    //imageView.image = inu01
+        ViewController().showImage((Any).self)
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
